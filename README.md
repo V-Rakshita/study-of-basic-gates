@@ -1,4 +1,7 @@
-### study-of-basic-gates
+### Name : V Rakshita
+### Register No: 212224100049
+
+# Exp 1 : Study of Logic Gates
 
 **AIM:** 
 
@@ -63,17 +66,28 @@ Y= A⊕B
 
 
 **PROGRAM**
-
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+```
+module EXP1(a,b,yand,yor,ynot,yxor,ynor,ynand,yxnor);
+input a,b;
+output yand,yor,ynot,yxor,ynor,ynand,yxnor;
+and(yand,a,b);
+or(yor,a,b);
+not(ynot,a);
+xor(yxor,a,b);
+nor(ynor,a,b);
+nand(ynand,a,b);
+xnor(yxnor,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![WhatsApp Image 2025-03-18 at 11 51 46 AM](https://github.com/user-attachments/assets/62fd7108-69b8-4686-abed-f7d906214b66)
+![WhatsApp Image 2025-03-18 at 11 57 18 AM](https://github.com/user-attachments/assets/60891ef7-0907-4278-84f0-14b4ff79e5dc)
 
-**RTL**
 
+**Wave form**
+
+![WhatsApp Image 2025-03-18 at 11 51 55 AM](https://github.com/user-attachments/assets/388c449d-a4ad-464a-a908-a1b26c779c40)
 **Result:**
-
-
+Hence the aim was successfully achieved.
